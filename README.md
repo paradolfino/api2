@@ -1,4 +1,3 @@
-# api2
-Just a test API I am using.
+This is now an express api boilerplate with MongoDB, Mongoose, and BodyParser.
 
-Going to use both MongoDB and Firebase. Maybe MySQL - we'll see.
+I'll most likely fork this multiple times to use with React and/or Angular 5.

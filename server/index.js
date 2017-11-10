@@ -13,6 +13,8 @@ db.once('open', function callback () {
 const Schema = mongoose.Schema;
 
 const apiSchema = new Schema({
+    word: String,
+    type: String
   /*title:  String,
   author: String,
   body:   String,
@@ -43,6 +45,6 @@ app.get('/',(req,res)=>{
 });
 
 app.post('/api/store', function(req, res) {
-    var user_id = req.body.id;
-    var password = req.body.pass;
+    var word = req.body.word;
+    var type = req.body.type;
 });
